@@ -1,0 +1,1199 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Runkana Venkataramana | AI & ML Specialist & Software Engineer</title>
+  <meta name="description" content="Official portfolio of Runkana Venkataramana - B.Tech CSE (AI & ML) student, Aspiring Software Engineer, specializing in Generative AI, Machine Learning, Python, and scalable software solutions.">
+  <meta name="keywords" content="Runkana Venkataramana, Portfolio, Software Engineer, Generative AI, Machine Learning, Python, Lendi Institute, Vizianagaram, AICTE Intern, Google AI Intern">
+  <meta name="author" content="Runkana Venkataramana">
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Runkana Venkataramana | Digital Portfolio">
+  <meta property="og:description" content="Explore projects, internships, certifications, and skills of Runkana Venkataramana - B.Tech CSE (AI & ML).">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="profile.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%232563eb'/><text x='50%' y='55%' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-weight='bold' font-size='46' fill='white'>RV</text></svg>">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Ambient background glow elements -->
+  <div class="ambient-glow glow-1"></div>
+  <div class="ambient-glow glow-2"></div>
+  <div class="ambient-glow glow-3"></div>
+
+  <!-- Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-brand" aria-label="Home">
+        <div class="brand-avatar">RV</div>
+        <div class="brand-text">
+          <span class="brand-name">Runkana Venkataramana</span>
+          <span class="brand-tag">AI & ML Engineer</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" id="nav-menu">
+        <a href="#about" class="nav-link"><i class="fa-solid fa-user-astronaut"></i> About</a>
+        <a href="#skills" class="nav-link"><i class="fa-solid fa-layer-group"></i> Skills</a>
+        <a href="#experience" class="nav-link"><i class="fa-solid fa-briefcase"></i> Internships</a>
+        <a href="#projects" class="nav-link"><i class="fa-solid fa-rocket"></i> Projects</a>
+        <a href="#education" class="nav-link"><i class="fa-solid fa-graduation-cap"></i> Education</a>
+        <a href="#certifications" class="nav-link"><i class="fa-solid fa-award"></i> Certifications</a>
+        <a href="#contact" class="nav-link"><i class="fa-solid fa-paper-plane"></i> Contact</a>
+      </nav>
+
+      <!-- Nav Action CTA Buttons -->
+      <div class="nav-actions">
+        <!-- Theme Toggle -->
+        <button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle light or dark theme" title="Toggle theme">
+          <i class="fa-solid fa-sun light-icon"></i>
+          <i class="fa-solid fa-moon dark-icon"></i>
+        </button>
+
+        <!-- Resume Download Button -->
+        <a href="resume.pdf" class="btn btn-outline btn-sm" download="Runkana_Venkataramana_Resume.pdf" id="nav-resume-btn">
+          <i class="fa-solid fa-file-arrow-down"></i>
+          <span>Resume</span>
+        </a>
+
+        <!-- Mobile Menu Hamburger -->
+        <button class="menu-toggle-btn" id="menu-toggle" aria-label="Open mobile navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer" id="mobile-drawer">
+    <div class="drawer-header">
+      <div class="brand-avatar">RV</div>
+      <button class="drawer-close" id="drawer-close" aria-label="Close navigation menu">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+    <div class="drawer-links">
+      <a href="#about" class="drawer-link"><i class="fa-solid fa-user-astronaut"></i> About</a>
+      <a href="#skills" class="drawer-link"><i class="fa-solid fa-layer-group"></i> Skills</a>
+      <a href="#experience" class="drawer-link"><i class="fa-solid fa-briefcase"></i> Internships</a>
+      <a href="#projects" class="drawer-link"><i class="fa-solid fa-rocket"></i> Projects</a>
+      <a href="#education" class="drawer-link"><i class="fa-solid fa-graduation-cap"></i> Education</a>
+      <a href="#certifications" class="drawer-link"><i class="fa-solid fa-award"></i> Certifications</a>
+      <a href="#contact" class="drawer-link"><i class="fa-solid fa-paper-plane"></i> Contact</a>
+    </div>
+    <div class="drawer-footer">
+      <a href="resume.pdf" class="btn btn-primary btn-block" download="Runkana_Venkataramana_Resume.pdf">
+        <i class="fa-solid fa-download"></i> Download Full Resume
+      </a>
+      <div class="drawer-socials">
+        <a href="https://www.linkedin.com/in/venkataramana-runkana-911a2b33b" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://github.com/venkataramanarunkana991-glitch" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="mailto:venkataramanarunkana991@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        <a href="tel:+917075473772" aria-label="Phone"><i class="fa-solid fa-phone"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="drawer-overlay" id="drawer-overlay"></div>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <!-- Availability Badge -->
+          <div class="badge status-badge" data-aos="fade-down">
+            <span class="pulse-dot"></span>
+            <span>Available for Internships & Software Engineering Roles</span>
+          </div>
+
+          <!-- Main Hero Greeting & Title -->
+          <h1 class="hero-title">
+            <span class="greeting-prefix">Hello, I am</span>
+            <span class="name-gradient">Runkana Venkataramana</span>
+          </h1>
+
+          <!-- Dynamic Typing Subtitle -->
+          <div class="hero-subtitle">
+            <span class="static-text">Specializing in</span>
+            <span class="typing-text" id="typing-text"></span>
+            <span class="cursor">&nbsp;</span>
+          </div>
+
+          <!-- Concise Pitch -->
+          <p class="hero-description">
+            Motivated B.Tech Computer Science student at <strong>Lendi Institute of Engineering and Technology (CGPA 8.5)</strong>, specializing in <strong>Generative AI & Machine Learning</strong>. Passionate about architecting real-world AI applications, scalable software systems, and innovative engineering solutions.
+          </p>
+
+          <!-- Action Buttons -->
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary" id="btn-explore-projects">
+              <span>Explore Projects</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+            <a href="resume.pdf" class="btn btn-secondary" download="Runkana_Venkataramana_Resume.pdf" id="btn-download-resume" title="Download official PDF resume">
+              <i class="fa-solid fa-file-pdf"></i>
+              <span>Download CV</span>
+            </a>
+            <button class="btn btn-ghost" id="btn-quick-preview-pdf" title="Preview Resume in modal">
+              <i class="fa-solid fa-eye"></i>
+              <span>Preview PDF</span>
+            </button>
+          </div>
+
+          <!-- Quick Contact Details / Social Bar -->
+          <div class="hero-meta-bar">
+            <a href="mailto:venkataramanarunkana991@gmail.com" class="meta-item" title="Send email">
+              <i class="fa-solid fa-envelope"></i>
+              <span>venkataramanarunkana991@gmail.com</span>
+            </a>
+            <a href="tel:+917075473772" class="meta-item" title="Call directly">
+              <i class="fa-solid fa-phone"></i>
+              <span>+91 7075473772</span>
+            </a>
+            <div class="meta-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <span>Vizianagaram, Andhra Pradesh</span>
+            </div>
+          </div>
+
+          <!-- Social Quick Links -->
+          <div class="hero-social-links">
+            <a href="https://www.linkedin.com/in/venkataramana-runkana-911a2b33b" target="_blank" rel="noopener noreferrer" class="social-chip" title="LinkedIn Profile">
+              <i class="fa-brands fa-linkedin"></i>
+              <span>LinkedIn</span>
+            </a>
+            <a href="https://github.com/venkataramanarunkana991-glitch" target="_blank" rel="noopener noreferrer" class="social-chip" title="GitHub Profile">
+              <i class="fa-brands fa-github"></i>
+              <span>GitHub</span>
+            </a>
+            <button class="social-chip copy-chip" data-copy="venkataramanarunkana991@gmail.com" title="Copy email address">
+              <i class="fa-solid fa-copy"></i>
+              <span>Copy Email</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Hero Photograph & Visual Presentation Card -->
+        <div class="hero-visual">
+          <div class="profile-card-wrapper">
+            <!-- Decorative backdrop rings -->
+            <div class="profile-glow-ring"></div>
+            
+            <div class="profile-card">
+              <div class="profile-image-container">
+                <img src="profile.jpg" alt="Runkana Venkataramana - AI & ML Engineer" class="profile-image" id="user-profile-img">
+                <div class="image-gradient-overlay"></div>
+              </div>
+              <div class="profile-card-info">
+                <div class="card-name-row">
+                  <div>
+                    <h3 class="card-title">Runkana Venkataramana</h3>
+                    <p class="card-subtitle">B.Tech CSE (AI & ML) • Class of 2028</p>
+                  </div>
+                  <span class="verified-badge" title="Verified Profile"><i class="fa-solid fa-circle-check"></i></span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Floating Micro Badges -->
+            <div class="floating-badge badge-cgpa" title="Academic Standing">
+              <div class="badge-icon"><i class="fa-solid fa-star"></i></div>
+              <div class="badge-text">
+                <span class="badge-val">8.5 CGPA</span>
+                <span class="badge-lbl">B.Tech Academic Score</span>
+              </div>
+            </div>
+
+            <div class="floating-badge badge-role" title="Key Focus">
+              <div class="badge-icon"><i class="fa-solid fa-brain"></i></div>
+              <div class="badge-text">
+                <span class="badge-val">Generative AI</span>
+                <span class="badge-lbl">& Deep Learning</span>
+              </div>
+            </div>
+
+            <div class="floating-badge badge-exp" title="Internship Experience">
+              <div class="badge-icon"><i class="fa-solid fa-shield-halved"></i></div>
+              <div class="badge-text">
+                <span class="badge-val">Google & AICTE</span>
+                <span class="badge-lbl">Virtual Internships</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- KEY STATS METRICS STRIP -->
+    <section class="metrics-strip">
+      <div class="container">
+        <div class="metrics-grid">
+          <div class="metric-card">
+            <div class="metric-icon-box"><i class="fa-solid fa-graduation-cap"></i></div>
+            <div class="metric-info">
+              <div class="metric-number">8.5 <span class="metric-unit">CGPA</span></div>
+              <div class="metric-label">Lendi Institute (AI & ML)</div>
+            </div>
+          </div>
+
+          <div class="metric-card">
+            <div class="metric-icon-box"><i class="fa-solid fa-laptop-code"></i></div>
+            <div class="metric-info">
+              <div class="metric-number">2+</div>
+              <div class="metric-label">Industry Internships</div>
+            </div>
+          </div>
+
+          <div class="metric-card">
+            <div class="metric-icon-box"><i class="fa-solid fa-certificate"></i></div>
+            <div class="metric-info">
+              <div class="metric-number">4+</div>
+              <div class="metric-label">Verified Certifications</div>
+            </div>
+          </div>
+
+          <div class="metric-card">
+            <div class="metric-icon-box"><i class="fa-solid fa-code-branch"></i></div>
+            <div class="metric-info">
+              <div class="metric-number">Road Guard AI</div>
+              <div class="metric-label">Featured Academic Innovation</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT & OBJECTIVE SECTION -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag"><i class="fa-solid fa-user"></i> Professional Profile</span>
+          <h2 class="section-title">Career Objective & Vision</h2>
+          <p class="section-subtitle">A committed technologist dedicated to engineering real-world AI applications and high-quality software solutions.</p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Main Career Objective Card -->
+          <div class="card about-main-card">
+            <div class="card-corner-icon"><i class="fa-solid fa-quote-right"></i></div>
+            <h3 class="about-card-heading">
+              <i class="fa-solid fa-bullseye text-primary"></i>
+              My Career Objective
+            </h3>
+            <blockquote class="objective-quote">
+              "Motivated B.Tech Computer Science student specializing in <strong>Generative AI and Machine Learning</strong>, aspiring to build a successful career as a <strong>Software Engineer</strong>. Seeking opportunities to apply my programming, problem-solving, and software development skills in real-world projects. Passionate about learning emerging technologies, developing innovative solutions, and continuously improving my technical expertise. Eager to contribute to a dynamic organization while growing as a skilled and responsible technology professional."
+            </blockquote>
+            
+            <div class="about-pillars">
+              <div class="pillar-item">
+                <div class="pillar-bullet"><i class="fa-solid fa-microchip"></i></div>
+                <div>
+                  <strong>AI & Deep Learning</strong>
+                  <p>Exploring Generative models, LLMs, and prompt-driven applications.</p>
+                </div>
+              </div>
+              <div class="pillar-item">
+                <div class="pillar-bullet"><i class="fa-solid fa-code"></i></div>
+                <div>
+                  <strong>Core CS Engineering</strong>
+                  <p>Solid foundation in DSA, Object-Oriented Design, and Relational Databases.</p>
+                </div>
+              </div>
+              <div class="pillar-item">
+                <div class="pillar-bullet"><i class="fa-solid fa-lightbulb"></i></div>
+                <div>
+                  <strong>Innovation & Safety</strong>
+                  <p>Pioneering practical systems like Road Guard AI for human benefit.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Personal Traits & Work Ethic Cards -->
+          <div class="traits-container">
+            <h3 class="about-card-heading">
+              <i class="fa-solid fa-compass text-primary"></i>
+              Personal Traits & Strengths
+            </h3>
+
+            <div class="trait-card">
+              <div class="trait-icon"><i class="fa-solid fa-comments"></i></div>
+              <div class="trait-text">
+                <h4>Good Communication & Teamwork</h4>
+                <p>Collaborative communicator adept at working seamlessly with peers, cross-functional teams, and technical stakeholders.</p>
+              </div>
+            </div>
+
+            <div class="trait-card">
+              <div class="trait-icon"><i class="fa-solid fa-seedling"></i></div>
+              <div class="trait-text">
+                <h4>Strong Willingness to Learn & Adapt</h4>
+                <p>Eager curiosity for emerging tech stacks, fast learner who embraces challenges and rapid technical evolution.</p>
+              </div>
+            </div>
+
+            <div class="trait-card">
+              <div class="trait-icon"><i class="fa-solid fa-check-double"></i></div>
+              <div class="trait-text">
+                <h4>Responsible & Detail-Oriented</h4>
+                <p>Disciplined approach to clean architecture, code quality, edge-case analysis, and consistent execution.</p>
+              </div>
+            </div>
+
+            <!-- Quick Profile Snapshot Card -->
+            <div class="snapshot-card">
+              <div class="snapshot-header">
+                <i class="fa-solid fa-address-card"></i>
+                <span>Quick Snapshot</span>
+              </div>
+              <ul class="snapshot-list">
+                <li><span>College:</span> <strong>Lendi Institute of Engineering & Tech</strong></li>
+                <li><span>Department:</span> <strong>CSE (AI & ML)</strong></li>
+                <li><span>Expected Graduation:</span> <strong>2028</strong></li>
+                <li><span>Location:</span> <strong>Vizianagaram, Andhra Pradesh</strong></li>
+                <li><span>Open For:</span> <span class="badge-pill-success">Internships / Co-ops / Full-time</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TECHNICAL SKILLS SECTION -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag"><i class="fa-solid fa-terminal"></i> Technical Stack</span>
+          <h2 class="section-title">Skills & Core Competencies</h2>
+          <p class="section-subtitle">A balanced toolkit blending advanced artificial intelligence concepts with rock-solid computer science fundamentals.</p>
+        </div>
+
+        <!-- Skill Filter Tabs -->
+        <div class="skill-tabs-container">
+          <button class="skill-tab active" data-category="all">All Skills</button>
+          <button class="skill-tab" data-category="ai-ml">AI & Machine Learning</button>
+          <button class="skill-tab" data-category="languages">Programming Languages</button>
+          <button class="skill-tab" data-category="core-cs">Core Computer Science</button>
+          <button class="skill-tab" data-category="tools">Tools & Databases</button>
+        </div>
+
+        <!-- Skills Grid -->
+        <div class="skills-grid" id="skills-grid">
+          <!-- Python -->
+          <div class="skill-card" data-category="languages ai-ml">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrap python-color"><i class="fa-brands fa-python"></i></div>
+              <span class="skill-level-tag">Proficient</span>
+            </div>
+            <h3 class="skill-name">Python</h3>
+            <p class="skill-desc">Primary programming language for AI/ML pipelines, scripting, algorithmic problem solving, and backend prototyping.</p>
+            <div class="skill-tags">
+              <span>NumPy</span>
+              <span>Automation</span>
+              <span>Data Prep</span>
+            </div>
+          </div>
+
+          <!-- C Language -->
+          <div class="skill-card" data-category="languages core-cs">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrap c-color"><i class="fa-solid fa-c"></i></div>
+              <span class="skill-level-tag">Core Foundation</span>
+            </div>
+            <h3 class="skill-name">C Programming</h3>
+            <p class="skill-desc">Fundamental low-level programming, memory management, pointers, and data structure implementations from scratch.</p>
+            <div class="skill-tags">
+              <span>Pointers</span>
+              <span>Memory</span>
+              <span>Algorithms</span>
+            </div>
+          </div>
+
+          <!-- Generative AI & LLMs -->
+          <div class="skill-card" data-category="ai-ml">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrap ai-color"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+              <span class="skill-level-tag">Specialization</span>
+            </div>
+            <h3 class="skill-name">Generative AI & LLMs</h3>
+            <p class="skill-desc">Deep comprehension of Large Language Models, prompt crafting, GenAI architectures, and multimodal AI paradigms.</p>
+            <div class="skill-tags">
+              <span>LLMs</span>
+              <span>Prompting</span>
+              <span>Transformers</span>
+            </div>
+          </div>
+
+          <!-- Deep Learning & ML -->
+          <div class="skill-card" data-category="ai-ml">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrap ml-color"><i class="fa-solid fa-network-wired"></i></div>
+              <span class="skill-level-tag">Specialization</span>
+            </div>
+            <h3 class="skill-name">Deep Learning & ML</h3>
+            <p class="skill-desc">Understanding neural network fundamentals, feature extraction, supervised learning, and model evaluation metrics.</p>
+            <div class="skill-tags">
+              <span>Model Dev</span>
+              <span>Neural Nets</span>
+              <span>Evaluation</span>
+            </div>
+          </div>
+
+          <!-- Data Preprocessing -->
+          <div class="skill-card" data-category="ai-ml">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrap data-color"><i class="fa-solid fa-filter"></i></div>
+              <span class="skill-level-tag">Practical</span>
+            </div>
+            <h3 class="skill-name">Data Preprocessing</h3>
+            <p class="skill-desc">Data wrangling, handling missing values, encoding, normalization, and preparing datasets for robust model training.</p>
+            <div class="skill-tags">
+              <span>Feature Eng.</span>
+              <span>Data Cleansing</span>
+              <span>Pipelines</span>
+            </div>
+          </div>
+
+          <!-- MySQL & Relational Databases -->
+          <div class="skill-card" data-category="tools core-cs">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrap mysql-color"><i class="fa-solid fa-database"></i></div>
+              <span class="skill-level-tag">Proficient</span>
+            </div>
+            <h3 class="skill-name">MySQL & Databases</h3>
+            <p class="skill-desc">Relational schema design, SQL querying, JOINs, indexing, normalization, and ACID transaction concepts.</p>
+            <div class="skill-tags">
+              <span>SQL Queries</span>
+              <span>Schema Design</span>
+              <span>Normalization</span>
+            </div>
+          </div>
+
+          <!-- Data Structures & Algorithms -->
+          <div class="skill-card" data-category="core-cs">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrap dsa-color"><i class="fa-solid fa-cubes-stacked"></i></div>
+              <span class="skill-level-tag">Academic</span>
+            </div>
+            <h3 class="skill-name">Data Structures & Algorithms</h3>
+            <p class="skill-desc">Arrays, Linked Lists, Stacks, Queues, Trees, Graphs, Sorting, Searching, and Computational Complexity (Big-O).</p>
+            <div class="skill-tags">
+              <span>Time/Space Big-O</span>
+              <span>Trees & Graphs</span>
+              <span>Optimization</span>
+            </div>
+          </div>
+
+          <!-- Object-Oriented Programming (OOPS) -->
+          <div class="skill-card" data-category="core-cs">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrap oops-color"><i class="fa-solid fa-shapes"></i></div>
+              <span class="skill-level-tag">Core CS</span>
+            </div>
+            <h3 class="skill-name">OOPS Principles</h3>
+            <p class="skill-desc">Encapsulation, Abstraction, Inheritance, Polymorphism, and modular object-oriented software engineering patterns.</p>
+            <div class="skill-tags">
+              <span>Modularity</span>
+              <span>Polymorphism</span>
+              <span>Inheritance</span>
+            </div>
+          </div>
+
+          <!-- Database Management Systems (DBMS) -->
+          <div class="skill-card" data-category="core-cs">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrap dbms-color"><i class="fa-solid fa-server"></i></div>
+              <span class="skill-level-tag">Core CS</span>
+            </div>
+            <h3 class="skill-name">DBMS Architecture</h3>
+            <p class="skill-desc">Storage engine architectures, transaction lifecycles, concurrency control, entity relationships, and recovery models.</p>
+            <div class="skill-tags">
+              <span>ACID</span>
+              <span>Transactions</span>
+              <span>Concurrency</span>
+            </div>
+          </div>
+
+          <!-- VS Code & Development Environment -->
+          <div class="skill-card" data-category="tools">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrap vscode-color"><i class="fa-solid fa-laptop-code"></i></div>
+              <span class="skill-level-tag">Daily Driver</span>
+            </div>
+            <h3 class="skill-name">VS Code & Development</h3>
+            <p class="skill-desc">Efficient development workflow using Visual Studio Code, extensions, debugging setups, and productivity configurations.</p>
+            <div class="skill-tags">
+              <span>VS Code</span>
+              <span>Debugging</span>
+              <span>Extensions</span>
+            </div>
+          </div>
+
+          <!-- Git & GitHub Version Control -->
+          <div class="skill-card" data-category="tools">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrap git-color"><i class="fa-brands fa-github"></i></div>
+              <span class="skill-level-tag">Version Control</span>
+            </div>
+            <h3 class="skill-name">Git & GitHub</h3>
+            <p class="skill-desc">Source code versioning, commit discipline, branch management, repositories, and collaborative development practices.</p>
+            <div class="skill-tags">
+              <span>Repositories</span>
+              <span>Branching</span>
+              <span>Open Source</span>
+            </div>
+          </div>
+
+          <!-- Design Thinking & Innovation -->
+          <div class="skill-card" data-category="core-cs">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrap design-color"><i class="fa-solid fa-lightbulb"></i></div>
+              <span class="skill-level-tag">Innovation</span>
+            </div>
+            <h3 class="skill-name">Design Thinking</h3>
+            <p class="skill-desc">User-centric problem solving methodology applied to academic and real-world software innovation projects.</p>
+            <div class="skill-tags">
+              <span>Ideation</span>
+              <span>User Empathy</span>
+              <span>Prototyping</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTERNSHIPS & PRACTICAL EXPERIENCE SECTION -->
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag"><i class="fa-solid fa-briefcase"></i> Hands-on Experience</span>
+          <h2 class="section-title">Industry Virtual Internships</h2>
+          <p class="section-subtitle">Real-world training and experiential learning with recognized technology bodies and industry leaders.</p>
+        </div>
+
+        <div class="timeline-wrapper">
+          <!-- Timeline Track Line -->
+          <div class="timeline-line"></div>
+
+          <!-- Internship 1: AICTE Virtual Intern — Edu Skills -->
+          <div class="timeline-item" data-aos="fade-up">
+            <div class="timeline-marker">
+              <i class="fa-solid fa-robot"></i>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-card-header">
+                <div class="company-badge-wrap">
+                  <div class="company-logo aicte-badge"><i class="fa-solid fa-graduation-cap"></i></div>
+                  <div>
+                    <h3 class="timeline-role">Generative AI, Deep Learning & Language Models</h3>
+                    <h4 class="timeline-company">AICTE Virtual Intern — EduSkills</h4>
+                  </div>
+                </div>
+                <div class="timeline-meta">
+                  <span class="badge-pill"><i class="fa-solid fa-calendar-check"></i> Virtual Internship</span>
+                  <span class="badge-pill badge-pill-accent"><i class="fa-solid fa-award"></i> AICTE Recognized</span>
+                </div>
+              </div>
+
+              <div class="timeline-body">
+                <p class="timeline-summary">
+                  Strengthened comprehensive understanding and technical acumen across cutting-edge artificial intelligence domains, focusing on Generative AI architectures, Deep Learning paradigms, and practical applications of Large Language Models.
+                </p>
+
+                <div class="timeline-points">
+                  <div class="point-item">
+                    <i class="fa-solid fa-circle-check text-success"></i>
+                    <span>Deep dived into <strong>Generative AI & LLM architectures</strong>, exploring transformer mechanics and conversational models.</span>
+                  </div>
+                  <div class="point-item">
+                    <i class="fa-solid fa-circle-check text-success"></i>
+                    <span>Investigated <strong>Deep Learning concepts</strong>, backpropagation, activation functions, and neural network optimization.</span>
+                  </div>
+                  <div class="point-item">
+                    <i class="fa-solid fa-circle-check text-success"></i>
+                    <span>Analyzed <strong>real-world AI use cases and practical applications</strong>, bridging foundational theory with industry implementation.</span>
+                  </div>
+                </div>
+
+                <div class="tech-stack-row">
+                  <span class="tech-tag">Generative AI</span>
+                  <span class="tech-tag">Deep Learning</span>
+                  <span class="tech-tag">LLMs</span>
+                  <span class="tech-tag">Language Models</span>
+                  <span class="tech-tag">EduSkills</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Internship 2: Google AI-ML Virtual Internship -->
+          <div class="timeline-item" data-aos="fade-up">
+            <div class="timeline-marker google-marker">
+              <i class="fa-brands fa-google"></i>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-card-header">
+                <div class="company-badge-wrap">
+                  <div class="company-logo google-badge"><i class="fa-brands fa-google"></i></div>
+                  <div>
+                    <h3 class="timeline-role">Artificial Intelligence & Machine Learning Intern</h3>
+                    <h4 class="timeline-company">Google AI-ML Virtual Internship</h4>
+                  </div>
+                </div>
+                <div class="timeline-meta">
+                  <span class="badge-pill"><i class="fa-solid fa-calendar-check"></i> Virtual Internship</span>
+                  <span class="badge-pill badge-pill-google"><i class="fa-brands fa-google"></i> Google Sponsored</span>
+                </div>
+              </div>
+
+              <div class="timeline-body">
+                <p class="timeline-summary">
+                  Acquired high-value exposure to enterprise AI & Machine Learning practices, from end-to-end dataset engineering and model development to practical deployment strategies in real-world scenarios.
+                </p>
+
+                <div class="timeline-points">
+                  <div class="point-item">
+                    <i class="fa-solid fa-circle-check text-success"></i>
+                    <span>Mastered <strong>AI & ML fundamentals</strong>, including classification, regression, and algorithmic decision boundaries.</span>
+                  </div>
+                  <div class="point-item">
+                    <i class="fa-solid fa-circle-check text-success"></i>
+                    <span>Trained in <strong>Data Preprocessing & Wrangling</strong>, data normalization, outlier handling, and feature selection.</span>
+                  </div>
+                  <div class="point-item">
+                    <i class="fa-solid fa-circle-check text-success"></i>
+                    <span>Executed hands-on <strong>Model Development & Tuning</strong> for practical real-world artificial intelligence applications.</span>
+                  </div>
+                </div>
+
+                <div class="tech-stack-row">
+                  <span class="tech-tag">Google AI</span>
+                  <span class="tech-tag">Machine Learning</span>
+                  <span class="tech-tag">Data Preprocessing</span>
+                  <span class="tech-tag">Model Development</span>
+                  <span class="tech-tag">Real-World AI</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED PROJECTS SECTION -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag"><i class="fa-solid fa-code"></i> Portfolio Work</span>
+          <h2 class="section-title">Featured Academic Innovation</h2>
+          <p class="section-subtitle">Showcasing engineering rigor, design thinking, and practical problem solving through real applications.</p>
+        </div>
+
+        <!-- Featured Project: Road Guard AI -->
+        <div class="project-spotlight-card">
+          <div class="project-spotlight-grid">
+            <!-- Project Visual & Live Simulation -->
+            <div class="project-media-col">
+              <div class="project-image-box">
+                <img src="road-guard-ai.jpg" alt="Road Guard AI Interface Mockup" class="project-showcase-img" id="project-main-image">
+                <div class="media-overlay-badge">
+                  <i class="fa-solid fa-shield-cat"></i> Safety-First Navigation
+                </div>
+              </div>
+
+              <!-- Interactive Route Simulator Widget -->
+              <div class="route-simulator-widget">
+                <div class="widget-header">
+                  <div class="widget-title">
+                    <i class="fa-solid fa-sliders"></i>
+                    <span>Interactive Route Comparison Demo</span>
+                  </div>
+                  <span class="widget-live-pill">Live Demo</span>
+                </div>
+                <div class="widget-controls">
+                  <button class="sim-btn active" id="sim-safe-btn" data-mode="safe">
+                    <i class="fa-solid fa-shield-heart text-success"></i> Road Guard Safe Route
+                  </button>
+                  <button class="sim-btn" id="sim-short-btn" data-mode="short">
+                    <i class="fa-solid fa-bolt text-warning"></i> Standard Shortest Route
+                  </button>
+                </div>
+                
+                <div class="sim-display" id="sim-display-box">
+                  <div class="sim-metric-row">
+                    <div class="sim-score-box">
+                      <span class="sim-score-val text-success" id="sim-score">96/100</span>
+                      <span class="sim-score-lbl">Safety Index</span>
+                    </div>
+                    <div class="sim-detail-box">
+                      <div class="sim-detail-item">
+                        <span>Risk Level:</span>
+                        <strong class="text-success" id="sim-risk">Very Low (0 Detected)</strong>
+                      </div>
+                      <div class="sim-detail-item">
+                        <span>Est. Duration:</span>
+                        <strong id="sim-time">18 mins (2.1 mi)</strong>
+                      </div>
+                      <div class="sim-detail-item">
+                        <span>Street Lighting & Patrolling:</span>
+                        <strong id="sim-infra">Optimal & Continuous</strong>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="sim-progress-bar">
+                    <div class="sim-progress-fill safe-fill" id="sim-progress" style="width: 96%;"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project Details & Tech Specs -->
+            <div class="project-info-col">
+              <div class="project-category-row">
+                <span class="category-pill"><i class="fa-solid fa-award"></i> Design Thinking Innovation</span>
+                <span class="category-pill"><i class="fa-solid fa-school"></i> Academic Project</span>
+              </div>
+
+              <h3 class="spotlight-title">Road Guard AI</h3>
+              <p class="spotlight-subtitle">Safety-Focused Intelligent Navigation & Route Risk Evaluation System</p>
+
+              <p class="spotlight-desc">
+                Traditional GPS systems optimize strictly for the shortest distance or minimal travel time, frequently funneling drivers and pedestrians into hazardous, unlit, or high-accident stretches. <strong>Road Guard AI</strong> revolutionizes urban mobility by prioritizing traveler safety through real-time multi-factor risk analysis.
+              </p>
+
+              <!-- Key Architecture Highlights -->
+              <div class="spotlight-features">
+                <div class="feature-bullet">
+                  <div class="feature-icon"><i class="fa-solid fa-route"></i></div>
+                  <div>
+                    <strong>Multi-Factor Risk Assessment</strong>
+                    <p>Evaluates real-world factors including road safety history, accident rates, time-of-day risks, and traffic conditions.</p>
+                  </div>
+                </div>
+
+                <div class="feature-bullet">
+                  <div class="feature-icon"><i class="fa-solid fa-scale-balanced"></i></div>
+                  <div>
+                    <strong>Dual Route Comparison Module</strong>
+                    <p>Visual safety metrics and comparative risk indicators empower users to make informed, secure navigation decisions.</p>
+                  </div>
+                </div>
+
+                <div class="feature-bullet">
+                  <div class="feature-icon"><i class="fa-solid fa-layer-group"></i></div>
+                  <div>
+                    <strong>Scalable AI/ML Architecture</strong>
+                    <p>Designed with modular architecture ready for real-time traffic sensor streams and predictive Machine Learning algorithms.</p>
+                  </div>
+                </div>
+
+                <div class="feature-bullet">
+                  <div class="feature-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                  <div>
+                    <strong>Safety Over Distance Paradigm</strong>
+                    <p>Proven design thinking workflow providing peace of mind to drivers, commuters, and night travelers.</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Tech Badges -->
+              <div class="spotlight-tags">
+                <span class="badge-tag"><i class="fa-brands fa-python"></i> Python</span>
+                <span class="badge-tag"><i class="fa-solid fa-brain"></i> Machine Learning</span>
+                <span class="badge-tag"><i class="fa-solid fa-map-location-dot"></i> Navigation AI</span>
+                <span class="badge-tag"><i class="fa-solid fa-lightbulb"></i> Design Thinking</span>
+                <span class="badge-tag"><i class="fa-solid fa-chart-line"></i> Risk Analytics</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section class="section education-section" id="education">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag"><i class="fa-solid fa-graduation-cap"></i> Academic Pathway</span>
+          <h2 class="section-title">Education & Qualifications</h2>
+          <p class="section-subtitle">Consistent academic performance and solid foundation in Computer Science and Mathematics.</p>
+        </div>
+
+        <div class="education-grid">
+          <!-- B.Tech Degree -->
+          <div class="edu-card featured-edu">
+            <div class="edu-badge-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+            <div class="edu-header">
+              <span class="edu-year">2024 — 2028 (Expected)</span>
+              <span class="edu-grade-pill"><i class="fa-solid fa-star"></i> CGPA: 8.5 / 10</span>
+            </div>
+            <h3 class="edu-degree">B.Tech in Computer Science & Engineering (AI & ML)</h3>
+            <h4 class="edu-institution">Lendi Institute of Engineering and Technology</h4>
+            <p class="edu-location"><i class="fa-solid fa-location-dot"></i> Vizianagaram, Andhra Pradesh</p>
+            <div class="edu-highlights">
+              <span class="highlight-tag">Artificial Intelligence</span>
+              <span class="highlight-tag">Machine Learning</span>
+              <span class="highlight-tag">Data Structures</span>
+              <span class="highlight-tag">Database Systems</span>
+              <span class="highlight-tag">Object-Oriented Programming</span>
+            </div>
+          </div>
+
+          <!-- Intermediate (12th) -->
+          <div class="edu-card">
+            <div class="edu-badge-icon"><i class="fa-solid fa-building-columns"></i></div>
+            <div class="edu-header">
+              <span class="edu-year">2022 — 2024</span>
+              <span class="edu-grade-pill">Score: 61.9%</span>
+            </div>
+            <h3 class="edu-degree">Intermediate (Higher Secondary / MPC)</h3>
+            <h4 class="edu-institution">Ravindra Bharathi Junior College</h4>
+            <p class="edu-location"><i class="fa-solid fa-location-dot"></i> Visakhapatnam, Andhra Pradesh</p>
+            <div class="edu-highlights">
+              <span class="highlight-tag">Mathematics</span>
+              <span class="highlight-tag">Physics</span>
+              <span class="highlight-tag">Chemistry</span>
+            </div>
+          </div>
+
+          <!-- 10th SSC -->
+          <div class="edu-card">
+            <div class="edu-badge-icon"><i class="fa-solid fa-school"></i></div>
+            <div class="edu-header">
+              <span class="edu-year">Completed 2022</span>
+              <span class="edu-grade-pill">Score: 77.5%</span>
+            </div>
+            <h3 class="edu-degree">Secondary School Certificate (10th SSC)</h3>
+            <h4 class="edu-institution">Sri Chaitanya High School</h4>
+            <p class="edu-location"><i class="fa-solid fa-location-dot"></i> Vizianagaram, Andhra Pradesh</p>
+            <div class="edu-highlights">
+              <span class="highlight-tag">General Science</span>
+              <span class="highlight-tag">Mathematics</span>
+              <span class="highlight-tag">Social Sciences</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS SECTION -->
+    <section class="section cert-section" id="certifications">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag"><i class="fa-solid fa-certificate"></i> Credibility</span>
+          <h2 class="section-title">Certifications & Accreditations</h2>
+          <p class="section-subtitle">Continuous upskilling through industry-recognized programs and technological certifications.</p>
+        </div>
+
+        <div class="certifications-grid">
+          <!-- Cert 1: Cisco Modern AI -->
+          <div class="cert-card">
+            <div class="cert-card-header">
+              <div class="cert-icon-box cisco-color">
+                <i class="fa-solid fa-network-wired"></i>
+              </div>
+              <span class="cert-status-badge"><i class="fa-solid fa-check"></i> Verified</span>
+            </div>
+            <h3 class="cert-title">Introduction to Modern AI</h3>
+            <h4 class="cert-issuer">Cisco Networking Academy</h4>
+            <p class="cert-desc">Foundational principles of modern artificial intelligence, machine learning pipelines, and network-integrated intelligence.</p>
+            <div class="cert-footer">
+              <span class="cert-type"><i class="fa-solid fa-building"></i> Cisco Academy</span>
+            </div>
+          </div>
+
+          <!-- Cert 2: AI in Action - Forage -->
+          <div class="cert-card">
+            <div class="cert-card-header">
+              <div class="cert-icon-box forage-color">
+                <i class="fa-solid fa-laptop-file"></i>
+              </div>
+              <span class="cert-status-badge"><i class="fa-solid fa-check"></i> Verified</span>
+            </div>
+            <h3 class="cert-title">AI in Action Job Simulation</h3>
+            <h4 class="cert-issuer">Forage</h4>
+            <p class="cert-desc">Simulation of enterprise AI engineering tasks, addressing business challenges, data extraction, and model-driven recommendations.</p>
+            <div class="cert-footer">
+              <span class="cert-type"><i class="fa-solid fa-briefcase"></i> Job Simulation</span>
+            </div>
+          </div>
+
+          <!-- Cert 3: Automation Anywhere -->
+          <div class="cert-card">
+            <div class="cert-card-header">
+              <div class="cert-icon-box aa-color">
+                <i class="fa-solid fa-robot"></i>
+              </div>
+              <span class="cert-status-badge"><i class="fa-solid fa-check"></i> Verified</span>
+            </div>
+            <h3 class="cert-title">Automation Anywhere Certification</h3>
+            <h4 class="cert-issuer">Automation Anywhere</h4>
+            <p class="cert-desc">Robotic Process Automation (RPA) workflows, bot development, process discovery, and enterprise automation integration.</p>
+            <div class="cert-footer">
+              <span class="cert-type"><i class="fa-solid fa-gears"></i> RPA Automation</span>
+            </div>
+          </div>
+
+          <!-- Cert 4: Lingua Skills -->
+          <div class="cert-card">
+            <div class="cert-card-header">
+              <div class="cert-icon-box lingua-color">
+                <i class="fa-solid fa-language"></i>
+              </div>
+              <span class="cert-status-badge"><i class="fa-solid fa-check"></i> Verified</span>
+            </div>
+            <h3 class="cert-title">Lingua Skills Certification</h3>
+            <h4 class="cert-issuer">Cambridge English / LinguaSkills</h4>
+            <p class="cert-desc">Demonstrated high proficiency in professional and technical English communication, business correspondence, and workplace interaction.</p>
+            <div class="cert-footer">
+              <span class="cert-type"><i class="fa-solid fa-comments"></i> Communication</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Professional Declaration Card -->
+        <div class="declaration-banner">
+          <div class="declaration-icon"><i class="fa-solid fa-stamp"></i></div>
+          <div class="declaration-content">
+            <h4 class="declaration-heading">Professional Declaration</h4>
+            <p class="declaration-text">
+              "I hereby affirm that the information in this portfolio is authentic, accurate, and true to the best of my knowledge and professional records."
+            </p>
+            <div class="declaration-sign">
+              <span class="sign-name">Runkana. Venkataramana</span>
+              <span class="sign-title">B.Tech CSE (AI & ML)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT & CONNECT SECTION -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag"><i class="fa-solid fa-envelope"></i> Get In Touch</span>
+          <h2 class="section-title">Let's Connect & Collaborate</h2>
+          <p class="section-subtitle">Interested in discussing software engineering opportunities, internships, or innovative AI projects? Feel free to reach out!</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Channels Info -->
+          <div class="contact-info-col">
+            <h3 class="contact-col-title">Direct Contact Channels</h3>
+            <p class="contact-col-desc">I am actively seeking software engineering internships and collaborative development roles. Connect with me directly through any channel below.</p>
+
+            <div class="contact-cards-list">
+              <!-- Email Card -->
+              <div class="contact-channel-card">
+                <div class="channel-icon-box mail-bg"><i class="fa-solid fa-envelope"></i></div>
+                <div class="channel-details">
+                  <span class="channel-label">Email Address</span>
+                  <a href="mailto:venkataramanarunkana991@gmail.com" class="channel-value">venkataramanarunkana991@gmail.com</a>
+                </div>
+                <button class="channel-copy-btn copy-chip" data-copy="venkataramanarunkana991@gmail.com" title="Copy email">
+                  <i class="fa-regular fa-copy"></i>
+                </button>
+              </div>
+
+              <!-- Phone Card -->
+              <div class="contact-channel-card">
+                <div class="channel-icon-box phone-bg"><i class="fa-solid fa-phone"></i></div>
+                <div class="channel-details">
+                  <span class="channel-label">Phone & WhatsApp</span>
+                  <a href="tel:+917075473772" class="channel-value">+91 7075473772</a>
+                </div>
+                <button class="channel-copy-btn copy-chip" data-copy="7075473772" title="Copy phone number">
+                  <i class="fa-regular fa-copy"></i>
+                </button>
+              </div>
+
+              <!-- Location Card -->
+              <div class="contact-channel-card">
+                <div class="channel-icon-box location-bg"><i class="fa-solid fa-location-dot"></i></div>
+                <div class="channel-details">
+                  <span class="channel-label">Location</span>
+                  <span class="channel-value">Vizianagaram, Andhra Pradesh, India</span>
+                </div>
+                <a href="https://maps.google.com/?q=Vizianagaram,Andhra+Pradesh" target="_blank" rel="noopener noreferrer" class="channel-link-btn" title="Open Map">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Social Links Grid -->
+            <div class="social-connect-box">
+              <h4 class="social-box-title">Professional Profiles</h4>
+              <div class="social-btn-group">
+                <a href="https://www.linkedin.com/in/venkataramana-runkana-911a2b33b" target="_blank" rel="noopener noreferrer" class="social-action-btn linkedin-btn">
+                  <i class="fa-brands fa-linkedin"></i>
+                  <span>LinkedIn Profile</span>
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+                <a href="https://github.com/venkataramanarunkana991-glitch" target="_blank" rel="noopener noreferrer" class="social-action-btn github-btn">
+                  <i class="fa-brands fa-github"></i>
+                  <span>GitHub Repository</span>
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive Message Form -->
+          <div class="contact-form-col">
+            <div class="card contact-form-card">
+              <h3 class="form-title">Send a Direct Message</h3>
+              <p class="form-subtitle">Fill in the form below and I'll get back to you promptly.</p>
+
+              <form id="contact-form" class="contact-form" novalidate>
+                <div class="form-group">
+                  <label for="form-name" class="form-label">Your Name <span class="required">*</span></label>
+                  <div class="input-wrap">
+                    <i class="fa-solid fa-user input-icon"></i>
+                    <input type="text" id="form-name" name="name" class="form-input" placeholder="e.g. John Doe" required>
+                  </div>
+                  <span class="error-msg" id="name-error">Please enter your name</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="form-email" class="form-label">Your Email <span class="required">*</span></label>
+                  <div class="input-wrap">
+                    <i class="fa-solid fa-envelope input-icon"></i>
+                    <input type="email" id="form-email" name="email" class="form-input" placeholder="e.g. john@company.com" required>
+                  </div>
+                  <span class="error-msg" id="email-error">Please enter a valid email address</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="form-subject" class="form-label">Subject</label>
+                  <div class="input-wrap">
+                    <i class="fa-solid fa-tag input-icon"></i>
+                    <input type="text" id="form-subject" name="subject" class="form-input" placeholder="e.g. Internship Inquiry / Project Discussion">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="form-message" class="form-label">Your Message <span class="required">*</span></label>
+                  <div class="input-wrap textarea-wrap">
+                    <i class="fa-solid fa-message input-icon"></i>
+                    <textarea id="form-message" name="message" rows="4" class="form-input form-textarea" placeholder="Hello Venkataramana, I came across your portfolio and would like to connect regarding..." required></textarea>
+                  </div>
+                  <span class="error-msg" id="message-error">Please write a message</span>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block" id="form-submit-btn">
+                  <span>Send Message</span>
+                  <i class="fa-solid fa-paper-plane"></i>
+                </button>
+              </form>
+
+              <!-- Form Success Message -->
+              <div class="form-success-banner" id="form-success-banner">
+                <i class="fa-solid fa-circle-check text-success"></i>
+                <div>
+                  <h4>Message Sent Successfully!</h4>
+                  <p>Thank you for reaching out. A draft has been prepared or sent to <strong>venkataramanarunkana991@gmail.com</strong>.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- PDF RESUME VIEWER MODAL -->
+  <div class="modal-backdrop" id="pdf-modal" aria-hidden="true" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <div class="modal-title-box">
+          <i class="fa-solid fa-file-pdf text-danger"></i>
+          <div>
+            <h3 class="modal-title">Runkana Venkataramana - Official Resume</h3>
+            <p class="modal-subtitle">PDF Document (Source of Portfolio)</p>
+          </div>
+        </div>
+        <div class="modal-actions">
+          <a href="resume.pdf" class="btn btn-primary btn-sm" download="Runkana_Venkataramana_Resume.pdf">
+            <i class="fa-solid fa-download"></i> Download
+          </a>
+          <button class="modal-close-btn" id="modal-close-btn" aria-label="Close modal">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+      </div>
+      <div class="modal-body">
+        <iframe src="resume.pdf" class="pdf-iframe" title="Runkana Venkataramana Resume PDF Viewer"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- TOAST NOTIFICATION CONTAINER -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="brand-avatar">RV</div>
+          <div>
+            <h4 class="footer-name">Runkana Venkataramana</h4>
+            <p class="footer-desc">B.Tech CSE (AI & ML) • Software Engineer</p>
+          </div>
+        </div>
+
+        <div class="footer-nav">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Internships</a>
+          <a href="#projects">Projects</a>
+          <a href="#education">Education</a>
+          <a href="#certifications">Certifications</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <div class="footer-socials">
+          <a href="https://www.linkedin.com/in/venkataramana-runkana-911a2b33b" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://github.com/venkataramanarunkana991-glitch" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="mailto:venkataramanarunkana991@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+          <a href="tel:+917075473772" aria-label="Phone"><i class="fa-solid fa-phone"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">
+          &copy; <span id="current-year">2026</span> Runkana Venkataramana. All rights reserved.
+        </p>
+        <div class="footer-actions">
+          <a href="resume.pdf" download="Runkana_Venkataramana_Resume.pdf" class="footer-link-subtle">
+            <i class="fa-solid fa-download"></i> Download Resume
+          </a>
+          <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+            <i class="fa-solid fa-arrow-up"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Main JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
